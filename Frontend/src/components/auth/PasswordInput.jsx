@@ -13,8 +13,18 @@ export default function PasswordInput({ label = 'Password', value, onChange, pla
       placeholder={placeholder}
       error={error}
       rightSlot={
-        <button type="button" onClick={() => setShow(!show)} aria-label={show ? 'Hide password' : 'Show password'}>
-          <img src={ViewPasswordIcon} alt="Toggle password visibility" className="w-4 h-4" />
+        <button 
+          id="toggle-password-btn"
+          type="button" 
+          onClick={() => setShow(!show)} 
+          aria-label={show ? 'Hide password' : 'Show password'}
+          className="bg-transparent border-none p-0 m-0"
+        >
+          <img 
+            src={ViewPasswordIcon} 
+            alt="Toggle password visibility" 
+            className="w-4 h-4" 
+          />
         </button>
       }
     />

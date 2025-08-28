@@ -6,12 +6,13 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
+Figma/
 node_modules
 dist
 dist-ssr
 *.local
-
+C:\Users\Olga\Desktop\E-FEED\Frontend\node_modules
+School-feeding.pdf
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
